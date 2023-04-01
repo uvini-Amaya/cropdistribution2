@@ -6,25 +6,40 @@ import { Route,Routes,Navigate } from 'react-router-dom';
 import AboutUs from "../src/pages/AboutUs/Aboutus";
 import Homepage from "../src/pages/Homepage/Homepage";
 import Login from "../src/pages/Log/Login/Login";
-import SignUp from "../src/pages/Log/SignUp/SignUpFarmer";
+import SignUp from "../src/pages/Log/SignUp/SignUp";
+// import SignUpSeller from "../src/pages/Log/SignUp/SignUpSeller";
+// import Footer from "../src/Components/Footer/Fotter";
+import Search from './Components/Search/Search';
 // import Carousel from "../src/Components/Carousel/Carousel";
+
+// import { startTransition } from 'react';
+
+
 
 function App() {
   return (
     <div className="App">
       <Navigation/>
-      {/* <Carousel/> */}
+      
+     <br/>
+     
       <br/>
-    <AboutUs/>
-      <br/>
+     
       <Routes>
         <Route path='*' element={<Navigate to={'/home'}/>} key={'home'}/>
         <Route path={'/home'} element={<Homepage/>} key={'home'}/>
         <Route path={'/aboutus'} element={<AboutUs/>} key={'aboutus'}/>
         <Route path={'/signup'} element={<SignUp/>} key={'signup'}/>
-        
+        {/* <Route path={'/signupseller'} element={<SignUpSeller/>} key={'signupseller'}/> */}
         <Route path={'/login'} element={<Login/>} key={'login'}/>
+        
+        <Route path={'/search'} element={<Search/>} key={'search'}/>
       </Routes> 
+
+      <br/>
+
+      {/* <Carousel/>
+      <Footer/> */}
     </div>
   );
 }

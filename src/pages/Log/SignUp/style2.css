@@ -1,0 +1,28 @@
+.flex122{
+    display:flex ;
+    background-color: green;
+}
+
+.signimage{
+    width:600px;
+    height:400px;
+
+}
+
+.form2{
+    margin-top: 20px;
+    margin-left: 140px;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    width:400px;
+    border: 2px solid black;
+}
+
+.button22{
+    color:white;
+    background-color: green;
+    width:120px;
+    height:40px;
+    border-radius: 5px;
+
+}

@@ -2,11 +2,12 @@ import React from 'react';
 import  "./Button.css";
 
 
-export default function Button({name,onClick}) {
+ function Button({name,onClick}) {
   return (
-    <Button className="button" onClick={()=>onClick(name)}>
+    <button className="button" onClick={()=>onClick(name)}>
         {name}
-    </Button>
+    </button>
   )
 }
 
+export default Button;

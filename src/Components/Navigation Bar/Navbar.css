@@ -32,3 +32,19 @@
 .navtitle{
     color:yellow;
 }
+
+
+.searchinside{
+    background-color: lightseagreen;
+    padding: 8px;
+    border: 2px solid aqua;
+    margin-left: 20px;
+    color: black;
+    display:flex;
+}
+
+
+.dropdwn{
+    background-color: green;
+    color: aquamarine;
+}

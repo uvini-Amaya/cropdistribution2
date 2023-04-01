@@ -3,19 +3,28 @@ import React from 'react';
 import img2 from "../../Images/img2.jpg";
 import img44 from "../../Images/img44.jpg";
 import "../../pages/style for pages/style.css";
-import { Button,Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
+import Button from '../../Components/Button/Button';
+import Footer from "../../Components/Footer/Fotter";
+import Table from "../../Components/Table/Table";
+import Chart from "../../Components/Chart/Chart";
+import img11 from "../../Images/img11.jpg";
+import img12 from "../../Images/img12.jpg";
+import img10 from "../../Images/img10.jpg";
+import { Divider } from '@mui/material';
+import Steps from "../../Components/Steps/Steps";
 
 
 
 // import { Carousel } from 'bootstrap';
 function Homepage() {
   return (
-    
+    <>
         <div className='content'>
            
             <div className='text'>
               <img src={img2} alt="homeimage" className="homeimage"/>
-             
+              
             
 
             <div>
@@ -45,47 +54,48 @@ function Homepage() {
            </div>
             <br/>
             <div class="flex">
-            <Card style={{ width: '20rem' ,height:'25rem'}}>
+            <Card style={{ width: '18rem' ,height:'25rem', background:'aquamarine'} } >
               <Card.Img variant="top" src={img2} className="cardimage" />
               <Card.Body>
-                <Card.Title className='cad'>Card Title</Card.Title>
+                <Card.Title className='cad'>Col-KandyFest</Card.Title>
                 <Card.Text>
-                  Some quick example text 
+                  Dear wholesale sellers from Colombo & Kandy are welcom hete to collect a discout of 800 for each bill more than 9000. 
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                
+                <Button name="Get your Offer" onClick={(value)=>alert(value)}/>
               </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem' ,height:'25rem'}}>
+            <Card style={{ width: '18rem' ,height:'25rem',background:'aquamarine'}}>
               <Card.Img variant="top" src={img2} className="cardimage" />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>NewUser Promo</Card.Title>
                 <Card.Text>
-                  Some quick example text 
+                10% off for the first 3 orders,from each farmer who buy more than 12kgs.So  make your order soon and collect your offers. 
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button name="Get Offer" onClick={(value)=>alert(value)}/>
               </Card.Body>
             </Card>
 
-            <Card style={{ width: '20rem' ,height:'25rem'}}>
+            <Card style={{ width: '20rem' ,height:'25rem',background:'aquamarine'}}>
               <Card.Img variant="top" src={img2} className="cardimage" />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Rural Offer</Card.Title>
                 <Card.Text>
-                  Some quick example text 
+                  For those who buy beans from the farmers from Nuwara Eliya are luckily getting 5% off for each order .
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button name="PromoCode=Beans5" onClick={(value)=>alert("Are you willig to be a winer")}/>
               </Card.Body>
             </Card>
 
-            <Card style={{ width: '20rem' ,height:'25rem'}}>
+            <Card style={{ width: '20rem' ,height:'25rem',background:'aquamarine'}}>
               <Card.Img variant="top" src={img2} className="cardimage" />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>BananaOffer</Card.Title>
                 <Card.Text>
-                  Some quick example text 
+                  Be soon, this is the Banana time .Not be delay to have fresh bananas for 4% off for each lot more than 6kgs.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button name="promo code:banana4" onClick={(value)=>alert("get offfer")}/>
               </Card.Body>
             </Card>
           
@@ -93,6 +103,41 @@ function Homepage() {
 
         </div>
     </div>
+    <br/>
+    <div className="featuredbg">
+    <h2 className="featured">Featured Here</h2>
+    <div className="flexfeatured">
+      <img src={img10}  alt="img1_featured" className="img_featured"/>
+      <img src={img11} alt="img2_featured" className="img_featured"/>
+      <img src={img12} alt="img3_featured" className="img_featured"/>
+    </div>
+    <br/>
+    <br/>
+    <Divider style={{ background: 'white' }} variant="middle" />
+    <br/>
+    <div className="flexfeatured2">
+      <div>Vegetables</div>
+      <div>Fruits</div>
+      <div>Other Crops</div>
+    </div>
+    </div>
+    <br/>
+    
+    <div align="center" className='steps'>
+      <h2 className="featured">Steps of Using for Wholesale Sellers</h2>
+      <Steps/>
+    </div>
+    
+
+    
+
+    <br/>
+    <h2 color>Some Example Calculus Data About Cultivation</h2>
+    <Table/>
+
+    <br/>
+    <Footer/>
+    </>
   )
 }
 
