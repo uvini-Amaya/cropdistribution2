@@ -30,7 +30,7 @@ export default function Navigation() {
                     <Nav.Link className="navinside"><Link to={'/aboutus'}>AboutUs</Link></Nav.Link>
                     <Nav.Link className="navinside"><Link to={'/login'}>Login</Link></Nav.Link>  
                     <Nav.Link className="navinside"><Link to={'/search'}>Search</Link></Nav.Link>
-    
+                    <Nav.Link className="navinside"><Link to={'/calculator'}>Calculator</Link></Nav.Link>
                     
 
                 {/* <label className='navinside'>search</label>

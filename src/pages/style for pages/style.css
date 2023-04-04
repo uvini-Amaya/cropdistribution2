@@ -255,7 +255,7 @@
     height:500px;
     width: 1360px;
     border: 2px solid aquamarine;
-    margin-left: 15px;
+    margin-left: 60px;
     margin-right: 20px;
     
 
@@ -269,6 +269,20 @@
     color:aquamarine;
 }
 
+.cardsectopic{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    margin-top: 10px;
+    color:aquamarine;
+    background: green;
+    margin-left:15px;
+    margin-right: 18px;
+    border:2px solid aquamarine;
+
+
+}
+
+
 
 .steps{
     background-color: green;
@@ -276,4 +290,9 @@
     margin-left: 15px;
     margin-right: 20px;
     border: 2px solid aquamarine;
+}
+
+
+.buttonlog{
+    width:60px;
 }

@@ -14,6 +14,10 @@ import img10 from "../../Images/img10.jpg";
 import { Divider } from '@mui/material';
 import Steps from "../../Components/Steps/Steps";
 
+import img150 from "../../Images/img150.jfif";
+import img151 from "../../Images/img151.jfif";
+import img152 from "../../Images/img152.jpg";
+import img153 from "../../Images/img153.jfif";
 
 
 // import { Carousel } from 'bootstrap';
@@ -52,10 +56,32 @@ function Homepage() {
               <img src={img44} alt="homeimage" className="homeimage"/>
             
            </div>
+            
             <br/>
+            <div className="featuredbg">
+            <h2 className="featured">Featured Here</h2>
+            <div className="flexfeatured">
+              <img src={img10}  alt="img1_featured" className="img_featured"/>
+              <img src={img11} alt="img2_featured" className="img_featured"/>
+              <img src={img12} alt="img3_featured" className="img_featured"/>
+            </div>
+            <br/>
+            <br/>
+            <Divider style={{ background: 'white' }} variant="middle" />
+            <br/>
+            <div className="flexfeatured2">
+              <div>Vegetables</div>
+              <div>Fruits</div>
+              <div>Other Crops</div>
+            </div>
+            </div>
+            <br/>
+
+            <h2 className="cardsectopic">Promotions Available</h2>
             <div class="flex">
+              
             <Card style={{ width: '18rem' ,height:'25rem', background:'aquamarine'} } >
-              <Card.Img variant="top" src={img2} className="cardimage" />
+              <Card.Img variant="top" src={img152} className="cardimage" />
               <Card.Body>
                 <Card.Title className='cad'>Col-KandyFest</Card.Title>
                 <Card.Text>
@@ -67,7 +93,7 @@ function Homepage() {
             </Card>
 
             <Card style={{ width: '18rem' ,height:'25rem',background:'aquamarine'}}>
-              <Card.Img variant="top" src={img2} className="cardimage" />
+              <Card.Img variant="top" src={img151} className="cardimage" />
               <Card.Body>
                 <Card.Title>NewUser Promo</Card.Title>
                 <Card.Text>
@@ -78,7 +104,7 @@ function Homepage() {
             </Card>
 
             <Card style={{ width: '20rem' ,height:'25rem',background:'aquamarine'}}>
-              <Card.Img variant="top" src={img2} className="cardimage" />
+              <Card.Img variant="top" src={img153} className="cardimage" />
               <Card.Body>
                 <Card.Title>Rural Offer</Card.Title>
                 <Card.Text>
@@ -89,7 +115,7 @@ function Homepage() {
             </Card>
 
             <Card style={{ width: '20rem' ,height:'25rem',background:'aquamarine'}}>
-              <Card.Img variant="top" src={img2} className="cardimage" />
+              <Card.Img variant="top" src={img150} className="cardimage" />
               <Card.Body>
                 <Card.Title>BananaOffer</Card.Title>
                 <Card.Text>
@@ -103,32 +129,19 @@ function Homepage() {
 
         </div>
     </div>
+   
     <br/>
-    <div className="featuredbg">
-    <h2 className="featured">Featured Here</h2>
-    <div className="flexfeatured">
-      <img src={img10}  alt="img1_featured" className="img_featured"/>
-      <img src={img11} alt="img2_featured" className="img_featured"/>
-      <img src={img12} alt="img3_featured" className="img_featured"/>
-    </div>
-    <br/>
-    <br/>
-    <Divider style={{ background: 'white' }} variant="middle" />
-    <br/>
-    <div className="flexfeatured2">
-      <div>Vegetables</div>
-      <div>Fruits</div>
-      <div>Other Crops</div>
-    </div>
-    </div>
-    <br/>
+
+
+   
     
     <div align="center" className='steps'>
       <h2 className="featured">Steps of Using for Wholesale Sellers</h2>
       <Steps/>
     </div>
     
-
+    <br/>
+ 
     
 
     <br/>

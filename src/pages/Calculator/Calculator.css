@@ -1,0 +1,44 @@
+.panel{
+    background-color: green;
+    width:500px;
+    height:450px;
+    margin-left: 500px;
+    border:3px solid black;
+    
+}
+
+.numbers2{
+        display:flex;
+        margin-left:80px;
+}
+
+.btn5{
+    width:100px;
+    height:100px;
+    color:white;
+}
+
+.btn6{
+    width:100px;
+    height:100px;
+}
+
+.expression{
+    color:green;
+    background-color: aquamarine;
+    border:3px solid green;
+    
+}
+
+.display{ 
+    width:500px;
+    margin-left: 500px;    
+    background-color: green;
+    border:5px solid black;
+}
+
+.numbers{
+    display:flex;
+    margin-left:20px;
+
+}

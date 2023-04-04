@@ -19,6 +19,18 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import "./Footer.css";
 
 
+import img14 from "../../Images/img14.jpg";
+import img15 from "../../Images/img15.jfif";
+import img16 from "../../Images/img16.jpg";
+import img17 from "../../Images/img17.jpg";
+import img18 from "../../Images/img18.jpg";
+import img19 from "../../Images/img19.jpg";
+import img20 from "../../Images/img20.jpg";
+
+import img24 from "../../Images/img24.jfif";
+import img25 from "../../Images/img25.jfif";
+
+
 export default function App() {
   return (
     <MDBFooter className='text-center text-white' style={{ backgroundColor: 'darkgreen' }}>
@@ -30,7 +42,7 @@ export default function App() {
                 rippleColor='light'
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
-                <img src={img1} className='w-100' />
+                <img src={img15} className='w-100' />
                 <a href='#!'>
                   <div
                     className='mask'
@@ -44,7 +56,7 @@ export default function App() {
                 rippleColor='light'
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
-                <img src={img1} className='w-100' />
+                <img src={img16} className='w-100' />
                 <a href='#!'>
                   <div
                     className='mask'
@@ -58,7 +70,7 @@ export default function App() {
                 rippleColor='light'
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
-                <img src={img1} className='w-100' />
+                <img src={img17} className='w-100' />
                 <a href='#!'>
                   <div
                     className='mask'
@@ -72,7 +84,7 @@ export default function App() {
                 rippleColor='light'
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
-                <img src={img1} className='w-100' />
+                <img src={img19} className='w-100' />
                 <a href='#!'>
                   <div
                     className='mask'
@@ -86,7 +98,7 @@ export default function App() {
                 rippleColor='light'
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
-                <img src={img1} className='w-100' />
+                <img src={img18} className='w-100' />
                 <a href='#!'>
                   <div
                     className='mask'
@@ -100,7 +112,7 @@ export default function App() {
                 rippleColor='light'
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
-                <img src={img1} className='w-100' />
+                <img src={img24} className='w-100' />
                 <a href='#!'>
                   <div
                     className='mask'
