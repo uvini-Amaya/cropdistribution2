@@ -5,7 +5,7 @@ import "./Calculator.css";
 
 import { Button } from "react-bootstrap";
 
-
+import Footer from "../../Components/Footer/Fotter";
 export default function Calculator() {
   const [display, setDisplay] = useState("");
   const [expression, setExpression] = useState([]);
@@ -39,7 +39,7 @@ export default function Calculator() {
   };
 
   return (
-    <div className="App">
+    <div>
       <h3 className="display">{display}</h3>
 
       <span className="expression">{expression}</span>
@@ -77,7 +77,16 @@ export default function Calculator() {
           <button onClick={() => handleResult()}>=</button>
         </div> */}
       </div>
+      <br/>
+      <Footer/>
     </div>
+
+
+
+     
+
+
+
   );
 }
 

@@ -19,19 +19,19 @@ export default function Navigation() {
             <Navbar.Brand>
                 <img alt="img6"src={img6}width="40"height="40"className="d-inline-block align-top"/>
             </Navbar.Brand>
-            <Navbar.Brand href="#home" className="navtitle">DIGItalMARkeT</Navbar.Brand>
+            <Navbar.Brand  className="navtitle" href="#home" ><b>DIGItalMARkeT</b></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
                 <div className="navitem">
 
                     <Nav.Link className="navinside"><Link to={'/home'} >Homepage</Link></Nav.Link> 
-                   
+                     
                     <Nav.Link className="navinside"><Link to={'/aboutus'}>AboutUs</Link></Nav.Link>
                     <Nav.Link className="navinside"><Link to={'/login'}>Login</Link></Nav.Link>  
                     <Nav.Link className="navinside"><Link to={'/search'}>Search</Link></Nav.Link>
                     <Nav.Link className="navinside"><Link to={'/calculator'}>Calculator</Link></Nav.Link>
-                    
+                    <Nav.Link className="navinside"><Link to={'/contact'} >Contact</Link></Nav.Link>
 
                 {/* <label className='navinside'>search</label>
                 <input type="search" placeholder="Search" id="form1" class="form-control" className='navinside' /> */}

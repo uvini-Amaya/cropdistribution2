@@ -13,25 +13,24 @@
 
 .navbar{
     background-color: darkgreen;
-    color: yellow;
-    text-shadow: black;
+    color:aquamarine;
     margin-top: 5px;
-    position :sticky;
     border: 5px solid black;
 }
 
 .navinside{
     background-color: lightseagreen;
-    padding: 8px;
+    padding: 6px;
     border: 2px solid aqua;
     margin-left: 20px;
     color: black;
 }
 
 
-.navtitle{
-    color:yellow;
-}
+/* .navtitle{
+    color:black;
+
+} */
 
 
 .searchinside{

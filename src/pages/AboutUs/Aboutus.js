@@ -40,7 +40,7 @@ function Aboutus() {
       <Card.Body>
         <Card.Title > Exhausted Routine</Card.Title>
         <Card.Text>
-          Let's join hands with raising technolog and be smart and satisfied at the end of the day.You can get rid of 75% of hard work after joining with us.<b>This is actually a replacement for the "Economical Centers".</b>
+          Let's join hands with raising technology and be smart and satisfied at the end of the day.You can get rid of 75% of hard work after joining with us.<b>This is actually a replacement for the "Economical Centers".</b>
         </Card.Text>
       
       </Card.Body>

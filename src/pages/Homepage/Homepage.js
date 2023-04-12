@@ -6,7 +6,7 @@ import "../../pages/style for pages/style.css";
 import { Card } from 'react-bootstrap';
 import Button from '../../Components/Button/Button';
 import Footer from "../../Components/Footer/Fotter";
-import Table from "../../Components/Table/Table";
+// import Table from "../../Components/Table/Table";
 import Chart from "../../Components/Chart/Chart";
 import img11 from "../../Images/img11.jpg";
 import img12 from "../../Images/img12.jpg";
@@ -19,8 +19,8 @@ import img151 from "../../Images/img151.jfif";
 import img152 from "../../Images/img152.jpg";
 import img153 from "../../Images/img153.jfif";
 
+import Carousel2 from "../../Components/Carousel/Carousel";
 
-// import { Carousel } from 'bootstrap';
 function Homepage() {
   return (
     <>
@@ -76,6 +76,8 @@ function Homepage() {
             </div>
             </div>
             <br/>
+
+            <Carousel2/>
 
             <h2 className="cardsectopic">Promotions Available</h2>
             <div class="flex">
@@ -144,11 +146,10 @@ function Homepage() {
  
     
 
-    <br/>
-    <h2 color>Some Example Calculus Data About Cultivation</h2>
-    <Table/>
+    {/* <br/>
+    <h2 color>Some Example Calculus Data About Cultivation</h2> */}
+    {/* <Table/> */}
 
-    <br/>
     <Footer/>
     </>
   )

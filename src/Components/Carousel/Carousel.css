@@ -1,4 +1,22 @@
-.amaya{
-    width:400px;
-    height: 400px;
+.slide1{
+    width:1000px;
+    height:500px;
+
+}
+
+.slide2{
+    width:1000px;
+    height:500px;
+
+}
+
+.slide3{
+    width:1000px;
+    height:500px;
+
+}
+
+
+.slidetext{
+    color:rgb(0, 0, 0);
 }

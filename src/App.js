@@ -10,33 +10,24 @@ import SignUp from "../src/pages/Log/SignUp/SignUp";
 // import SignUpSeller from "../src/pages/Log/SignUp/SignUpSeller";
 // import Footer from "../src/Components/Footer/Fotter";
 import Search from './Components/Search/Search';
-// import Carousel from "../src/Components/Carousel/Carousel";
+import Dashboard from "../src/pages/DashBoard/Dashboard";
 
 // import { startTransition } from 'react';
 
 
 import Login2 from "../src/pages/Log/Login/login2";
 import Calculator from "./pages/Calculator/Calculator";
-
-
-
-
-
-
+import Contact from "./pages/ContactUs/Contact";
 
 
 function App() {
 
-
-
   return (
     <div className="App">
       <Navigation/>
-    
      <br/>
-     
-      <br/>
-     
+     <Dashboard/>
+     <br/>
       <Routes>
         <Route path='*' element={<Navigate to={'/home'}/>} key={'home'}/>
         <Route path={'/home'} element={<Homepage/>} key={'home'}/>
@@ -47,12 +38,12 @@ function App() {
         {/* <Route path={'/login2'} element={<Login2/>} key={'login2'}/> */}
         <Route path={'/search'} element={<Search/>} key={'search'}/>
         <Route path={'/calculator'} element={<Calculator/>} key={'calculator'}/>
+        <Route path={'/contact'} element={<Contact/>} key={'contact'}/>
       </Routes> 
 
       <br/>
 
-      {/* <Carousel/>
-      <Footer/> */}
+      {/* <Footer/>  */}
     </div>
   );
 }
