@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-
 import "./Card.css";
 import Card from '@mui/material/Card';
 import StarOutlineIcon  from '@mui/icons-material/StarOutline';
@@ -8,14 +7,14 @@ import BookmarkAddIcon from '@mui/icons-material/BookmarkAdd';
 import StarIcon from '@mui/icons-material/Star';
 import {Link} from "@mui/material";
 import Divider from "@mui/material/Divider";
-
 import img247 from "../../Images/img247.jfif";
 
+import List1 from "../../pages/NumberList/NumberList";
 
-
-function Card1(){
+function Card2(){
 
         return(
+
     
         <div className="row justify-content-start bg-light ">
         <div className="col-3">
@@ -57,4 +56,4 @@ function Card1(){
 
     )
 }
-export default Card1;
+export default Card2;

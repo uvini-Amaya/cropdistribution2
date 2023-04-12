@@ -32,6 +32,7 @@ export default function Navigation() {
                     <Nav.Link className="navinside"><Link to={'/search'}>Search</Link></Nav.Link>
                     <Nav.Link className="navinside"><Link to={'/calculator'}>Calculator</Link></Nav.Link>
                     <Nav.Link className="navinside"><Link to={'/contact'} >Contact</Link></Nav.Link>
+                    <Nav.Link className="navinside"><Link to={'/browse'} >Browse</Link></Nav.Link>
 
                 {/* <label className='navinside'>search</label>
                 <input type="search" placeholder="Search" id="form1" class="form-control" className='navinside' /> */}

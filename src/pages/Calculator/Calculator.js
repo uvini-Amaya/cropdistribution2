@@ -81,12 +81,6 @@ export default function Calculator() {
       <Footer/>
     </div>
 
-
-
-     
-
-
-
   );
 }
 

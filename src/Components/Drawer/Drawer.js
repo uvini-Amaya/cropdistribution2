@@ -27,12 +27,7 @@ import LocalOfferOutlinedIcon from '@mui/icons-material/LocalOfferOutlined';
 import { colors } from 'react-bootstrap';
 import { green } from '@mui/material/colors';
 
-
-
 import DashboardCustomizeOutlinedIcon from '@mui/icons-material/DashboardCustomizeOutlined';
-
-
-
 
 // const Drawer = styled('div')(({ theme }) => ({
 //   backgroundColor: 'green',
@@ -125,8 +120,6 @@ export default function PersistentDrawerLeft() {
         <div alignContent= 'right'>Your Profile</div>
         <Divider style={{ background: 'black' }} variant="dark" />
 
-
-      
         <Divider style={{ background: 'black' }} variant="dark" />   
 
         <List> 

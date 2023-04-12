@@ -10,7 +10,7 @@ import SignUp from "../src/pages/Log/SignUp/SignUp";
 // import SignUpSeller from "../src/pages/Log/SignUp/SignUpSeller";
 // import Footer from "../src/Components/Footer/Fotter";
 import Search from './Components/Search/Search';
-import Dashboard from "../src/pages/DashBoard/Dashboard";
+import Browse from "./pages/Browse/Browse";
 
 // import { startTransition } from 'react';
 
@@ -20,13 +20,22 @@ import Calculator from "./pages/Calculator/Calculator";
 import Contact from "./pages/ContactUs/Contact";
 
 
+import Card3 from "./Components/Card/Card3";
+
+import Farmer1 from "./pages/Farmers/Farmer1";
+import Farmer from "./pages/Farmer";
+
 function App() {
 
   return (
     <div className="App">
       <Navigation/>
-     <br/>
-     <Dashboard/>
+
+        <br/>
+        <Farmer/>
+        <br/>
+        <Card3/>
+    
      <br/>
       <Routes>
         <Route path='*' element={<Navigate to={'/home'}/>} key={'home'}/>
@@ -39,6 +48,8 @@ function App() {
         <Route path={'/search'} element={<Search/>} key={'search'}/>
         <Route path={'/calculator'} element={<Calculator/>} key={'calculator'}/>
         <Route path={'/contact'} element={<Contact/>} key={'contact'}/>
+        <Route path={'/browse'} element={<Browse/>} key={'browse'}/>
+        <Route path={'/farmer1'} element={<Farmer1/>} key={'farmer1'}/>
       </Routes> 
 
       <br/>

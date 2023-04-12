@@ -10,34 +10,49 @@ function Table(){
 
             <div className="">
                 <div className="row justify-content-start">
-                    <div className="col-3 " >
+                    <div className="col-2 " >
 
                     </div>
 
-                    <div className="col-3" >
+                    <div className="col-1" >
                         <p align="center " >crop Name </p>
                     </div>
 
                     <div className="col-1" >
-                        <p align="left" >crop id</p>
+                        <p align="right" >crop id</p>
                     </div>
+
 
                     <div className="col-1" >
-                        <p align="left" >amount</p>
-                    </div>
-
-
-                    <div className="col-2">
-                        <p >IMDb <b/>Price</p>
-                    </div>
-
-                    <div className="col-1">
-                        <p align="left">Your <b/>Rating</p>
+                        <p align="right" >amount</p>
                     </div>
 
 
                     <div className="col-1">
-                        <p align>Farmer's id </p>
+                        <p >Price</p>
+                    </div>
+
+
+                    <div className="col-1">
+                        <p align="center">Supplied Date </p>
+                    </div>
+
+
+                    <div className="col-1">
+                        <p align="center">Expired Date </p>
+                    </div>
+
+                    <div className="col-1">
+                        <p align="center">Farmer's name </p>
+                    </div>
+
+
+                    <div className="col-1">
+                        <p align="right">Rating</p>
+                    </div>
+
+                    <div className="col-1">
+                        <p> </p>
                     </div>
 
                 </div>
